@@ -6,7 +6,7 @@ Don't print out this..
 
 *Query to analyze savings and investment plans*
 
-- - The query analyzes savings and investment plans for customers.
+- The query analyzes savings and investment plans for customers.
 
 I joined the savings_savingsaccount and plans_plan tables to get the relevant data.
 
@@ -20,7 +20,7 @@ I calculated the total deposits for each customer.
 
 *Query to analyze transaction frequency*
 
-- - The query analyzes the frequency of transactions for customers.
+- The query analyzes the frequency of transactions for customers.
 
 I used a Common Table Expression (CTE) to calculate the average monthly transactions for each customer.
 
@@ -30,7 +30,7 @@ I categorized the customers into 'High Frequency', 'Medium Frequency', and 'Low 
 
 *Query to analyze inactivity*
 
--- The query analyzes the inactivity of customers.
+- The query analyzes the inactivity of customers.
 
 I calculated the last transaction date for each customer.
 
@@ -42,7 +42,7 @@ I filters customers who have not made a transaction in the last year.
 
 *Query to estimate customer lifetime value (CLV)*
 
--- The query estimates the customer lifetime value (CLV) for customers.
+- The query estimates the customer lifetime value (CLV) for customers.
 
 I calculated the tenure of the customer in months.
 
@@ -52,10 +52,10 @@ It estimated the CLV using a formula that takes into account the total transacti
 
 ## Challenges
 
-- - One of the great challenge was the id in owner and customer columns, they are string data types which I couldn't be able to make available based on the samples.
+- One of the great challenge was the id in owner and customer columns, they are string data types which I couldn't be able to make available based on the samples.
   
-- - my second challenge was actually about encoding challenges which i later got through with try and errors.
+- my second challenge was actually about encoding challenges which i later got through with try and errors.
 
-- - I was challenged with errors during my codes, but with the help of ChatGPT and AI and my domain knowledge in Sql, i was able to surpass my challenges.
+- I was challenged with errors during my codes, but with the help of ChatGPT and AI and my domain knowledge in Sql, i was able to surpass my challenges.
 
-- - in addition to my first challenge the code you provide was actually wrong encoded in the table creation, you define utf8 instead of utf8_mb4.
+- in addition to my first challenge the code you provide was actually wrong encoded in the table creation, you define utf8 instead of utf8_mb4.
